@@ -1,0 +1,60 @@
+Compilation Exception
+	Caused by Line 1: Unexpected token 'begim' (IDENTIFIER)
+    Parse path:
+        at <StatementPart>
+Expected begin, but retrieved IDENTIFIER
+
+Compilation Exception
+	Caused by Line 11: Unexpected token '' (EOF)
+    Parse path:
+        at <Conditonal Operator>
+        at <Conditional Statement>
+        at <IfStatement>
+        at <Statement>
+        at <StatementList>
+        at <StatementPart>
+Expected if, but retrieved EOF
+
+Compilation Exception
+	Caused by Line 7: Unexpected token 'end' (end)
+    Parse path:
+        at <Statement>
+        at <StatementList>
+        at <Conditonal Operator>
+        at <Conditional Statement>
+        at <WhileStatement>
+        at <Statement>
+        at <StatementList>
+        at <StatementPart>
+Invalid statement input
+
+Compilation Exception
+	Caused by Line 7: Unexpected token ';' (;)
+    Parse path:
+        at <Conditonal Operator>
+        at <Conditional Statement>
+        at <WhileStatement>
+        at <Statement>
+        at <StatementList>
+        at <StatementPart>
+Expected loop, but retrieved ;
+
+Compilation Exception
+	Caused by Line 4: Unexpected token 'else' (else)
+    Parse path:
+        at <Statement>
+        at <StatementList>
+        at <StatementPart>
+Invalid statement input
+
+Compilation Exception
+	Caused by Line 12: Unexpected token 'call' (call)
+    Parse path:
+        at <Conditonal Operator>
+        at <Conditional Statement>
+        at <WhileStatement>
+        at <Statement>
+        at <StatementList>
+        at <StatementPart>
+Expected EOF, but retrieved call
+
